@@ -1,0 +1,246 @@
+/*Header*/
+header {
+    border: 4px solid white;
+    margin:10px;
+    padding-top: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    background-image: url(background\ cookie.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    box-shadow: 0px 3px 8px 2px rgb(238, 154, 29);
+    
+}
+
+/*Body*/
+body{
+    background-image: url(background\ cookie.avif);
+    background-repeat: repeat-y;
+    background-size: cover;
+    margin:20px;
+}
+
+/*Business logo in heaader and slogan*/
+#logo {
+    margin-left: 10px;
+    
+}
+
+#slogan {
+    justify-content: center;
+    text-align: center;
+    font-family: 'lucida grande';
+    font-style: italic;
+    color: brown;
+    margin-top: -70px;
+    font-weight: bold;
+}
+
+/*Navigation in top right corner*/
+nav a {
+    background-image: url(background\ cookie.avif);
+    border-radius: 10px;
+    border:4px solid white;
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    color:white;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    top: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    display: flex;
+    gap:15px;
+    
+    transition: 0.5s ease;
+
+    
+}
+
+/*nav pseudo class*/
+nav a:hover {
+    background-image: none;
+    background-color: white;
+    color: rgb(218, 112, 165);
+
+}
+
+/*Products page menu*/
+.menu a{
+    background-image: url(background\ cookie.avif);
+    border-radius: 10px;
+    border:4px solid white;
+    padding:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    color:black;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    top: 20px;
+    margin:20px;
+    display: inline-flex;
+    gap:15px;
+    transition: 0.5s ease;
+    
+}
+
+/*menu pseudo class*/
+.menu a:hover {
+    background-image: none;
+    background-color: white;
+    color: rgb(218, 112, 165);
+
+}
+
+/*nav*/
+.login, .registration {
+    display: flex;
+    justify-content: center;
+}
+
+/*Home page paragraph*/
+#para1, #browse {
+    font-weight:bold;
+    font-family: 'lucida grande';
+    font-size: large;
+    font-style: italic;
+}
+
+/*Form elements*/
+ form {
+            background-image: url(background\ cookie.avif);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 20px;
+            text-align: center;
+            border: 4px solid white;
+            border-radius: 20px;
+            box-shadow: 2px 2px 20px 2px white;
+            display: inline-block;
+        }
+        
+        #name , #name2, #email, #password, #confirmpassword,
+        #username {
+            padding: 10px;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+        #phonenumber {
+            border:2px solid white;
+            border-radius: 10px;
+        }
+        button
+         {
+            background-color: rgb(218, 112, 165);
+            font-weight: bold;
+            padding: 15px;
+            border-radius: 30px;
+            border: 20px;
+            font-family: 'Tahoma';
+            box-shadow:2px 2px 2px;
+    
+        }
+
+        button:hover {
+            background-color: rgb(244, 251, 252);
+            color:black;
+            padding:17px;
+            
+        }
+   /*Home page text section*/
+    .flex-container3 {
+        background-image: url(cookies.webp);
+        display: flex;
+        gap: 15px;
+        border-radius: 10px;
+        box-shadow: 3px 4px 16px 2px black;
+        margin:20px;
+        padding: 10px;
+        justify-content: center;
+
+    }
+
+    #ccastlehead {
+        display:inline-block;
+        padding:20px;
+        border-radius: 10px;
+        background-color: rgb(151, 136, 121);
+        font-family:'Lucida Grande';
+        color:white;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    #greeting {
+        background-image: url(background\ cookie.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding:20px;
+        border-radius: 10px;
+    }
+  /*Products page*/
+    #cookies {
+        background-color: white;
+        border-radius: 10px;
+        margin:10px;
+        padding:10px;
+        display: inline-block;
+
+    }
+
+    #cookies:hover {
+        transform: scale(1.1);
+        transition: 0.3s ease;
+    }
+  
+    /*special offer sections*/
+    .flex-container4 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin:20px;
+        padding: 10px;
+        
+    }  
+
+     /*about us*/
+    #abouti {
+        margin: 20px;
+        padding:20px;
+        background-color: white;
+        border-radius: 10px;
+        font-family: 'lucida grande';
+    }
+    
+    /*Products page order details*/
+    .flex-container5 {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap:100px;
+        padding:20px;
+        margin:30px;
+        justify-content: center;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow:2px 2px 2px; ;
+    }
+
+     /*Order details table*/
+    table {
+        border: 2px solid black;
+       
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding:5px;
+    }
